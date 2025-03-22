@@ -172,9 +172,12 @@ def main():
     ])
     
     # Dataset and DataLoader
-    train_dir = input("Enter the path to training directory: ")
-    val_dir = input("Enter the path to validation directory: ")
-    
+    #train_dir = input("Enter the path to training directory: ")
+    #val_dir = input("Enter the path to validation directory: ")
+    train_dir = "/content/Reduction/train"
+    val_dir = "/content/Reduction/val"
+
+
     # Add cache directories
     train_cache_dir = "train_features_cache"
     val_cache_dir = "val_features_cache"
