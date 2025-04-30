@@ -16,7 +16,7 @@ class AnimalDataset(Dataset):
         self.chunk_size = chunk_size
         
         # Load DINO model
-        self.dino = torch.hub.load('facebookresearch/dino:main', 'dino_vits16')
+        self.dino = torch.hub.load('facebookresearch/dino:main', 'dino_vits8')
         self.dino.eval()
         
         # Create cache directory if specified
